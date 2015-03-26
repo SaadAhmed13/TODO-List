@@ -19,4 +19,4 @@ Route::get('/', function()
 
 Route::resource('user', 'UserController');
 Route::resource('project', 'ProjectController');
-Route::resource('task', 'TaskController');
+Route::resource('project.task', 'TaskController');
